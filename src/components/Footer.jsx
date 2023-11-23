@@ -4,8 +4,8 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <main className="lg:flex text-left text-white justify-center px-5 py-20 bg-blue-700">
-        <div className="max-w-lg">
+    <main className="lg:grid lg:grid-cols-12 text-left text-white justify-center px-10 py-20 bg-blue-700">
+        <div className="lg:col-span-4">
           <div className="flex flex-wrap items-center px-6 py-5 ">
             <div className="text-3xl font-bold font-gruppo">
               <h1>A propos de nous</h1>
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-lg">
+        <div className="lg:col-span-5">
           <div className="flex flex-wrap  max-w-lg px-6 py-5 ">
             <div className="text-3xl font-bold font-gruppo">
               <h1>Address</h1>
@@ -38,10 +38,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-md">
+        <div className="lg:col-span-3">
           <div className="px-6 py-5 ">
             <div className="text-3xl font-bold font-gruppo">
-              <h1>Site Links</h1>
+              <h1>Pages</h1>
               <AiOutlineLine className="text-white text-2xl"/>
             </div>
             <div className="pt-5 pb-10 leading-8 text-lg space-y-3">
