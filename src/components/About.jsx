@@ -5,7 +5,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const About = () => {
   return (
-    <main className="p-10">
+    <main className="p-2 md:p-10">
         <section>
             <div className="flex flex-wrap justify-center mb-10 gap-20">
                 <div className="max-w-2xl p-8 text-left">

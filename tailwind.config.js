@@ -8,10 +8,10 @@ export default {
     extend: {
       fontFamily: {
         rajdhani: "Rajdhani",
-        gruppo: "Gruppo",
+        gruppo: "Kanit",
         burtons: 'burtons',
         cooper: 'Cooper',
-        leelawadee: 'leelawadee',
+        leelawadee: 'Nunito',
         //bahnschrift: 'Gruppo'
       },
       backgroundImage: {

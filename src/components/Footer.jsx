@@ -4,7 +4,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <main className="lg:grid lg:grid-cols-12 text-left text-white justify-center px-10 py-20 bg-blue-700">
+    <main className="lg:grid lg:grid-cols-12 text-left text-white justify-center px-2 py-5 md:px-10 lg:px-10 md:py-20 lg:py-20 bg-blue-700">
         <div className="lg:col-span-4">
           <div className="flex flex-wrap items-center px-6 py-5 ">
             <div className="text-3xl font-bold font-gruppo">
@@ -30,10 +30,10 @@ const Footer = () => {
               <h1>Address</h1>
               <AiOutlineLine className="text-white text-2xl"/>
             </div>
-            <div className="pt-5 pb-10 leading-8 text-lg space-y-3">
-              <div className="flex flex-wrap items-center space-x-4"><MdLocationOn className="text-2xl"/><div className="ms-2 font-leelawadee"><h1>Lome, Agoe-Assiyeye, Derriere la station YATT & CO</h1></div></div>
-              <div className="flex flex-wrap items-center space-x-4"><MdEmail className="text-2xl"/><div className="ms-2 font-leelawadee"><h1>kdhorizonsarl@gmail.com</h1></div></div>
-              <div className="flex flex-wrap items-center space-x-4"><BsTelephoneFill className="text-2xl"/><div className="ms-2 font-leelawadee"><h1>+228 70771177 / 92415863</h1></div></div>
+            <div className="pt-5 leading-8 text-lg space-y-5">
+              <div className="md:flex items-top space-y-2 md:space-y-0 md:space-x-4"><MdLocationOn className="w-8 text-2xl"/><div className="md:ms-2 font-leelawadee"><h1>Lome, Agoe-Assiyeye, Derriere la station YATT & CO</h1></div></div>
+              <div className="md:flex items-center space-y-2 md:space-y-0 md:space-x-4"><MdEmail className="w-8 text-2xl"/><div className="md:ms-2 font-leelawadee"><h1>kdhorizonsarl@gmail.com</h1></div></div>
+              <div className="md:flex items-center space-y-2 md:space-y-0 md:space-x-4"><BsTelephoneFill className="w-8 text-2xl"/><div className="md:ms-2 font-leelawadee"><h1>+228 70771177 / 92415863</h1></div></div>
             </div> 
           </div>
         </div>

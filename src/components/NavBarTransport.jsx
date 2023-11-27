@@ -9,7 +9,7 @@ const NavBarTransport = () => {
     <main className="">
         <div className='lg:flex lg:justify-between items-center py-5 px-10 bg-blue-700 text-white'>
           <div className='text-3xl font-bold '><Link to='/'><span className=' font-gruppo'>KD</span>-<span className=' font-century'>HORIZON</span></Link></div>
-          <ul className='flex md:mt-10 lg:mt-0 justify-between items-center space-x-8 text-white font-bold text-lg'>
+          <ul className='flex md:mt-10 lg:mt-0 justify-center items-center md:space-x-8 text-white font-bold text-lg'>
             <li>
               <Link className=' text-md font-gruppo' to='/'>ACCUEIL</Link>
             </li>
@@ -27,8 +27,8 @@ const NavBarTransport = () => {
           </ul>
         </div>
         <div className="bg-transport text-center bg-center">
-          <div className="bg-gray-700 py-40 md:p-40 lg:p-48 mb-auto bg-opacity-50">
-            <h1 className="text-4xl md:text-7xl lg:text-7xl font-gruppo text-white font-bold">Transport</h1>
+          <div className="bg-gray-700 px-20 py-40 md:p-40 lg:p-48 mb-auto bg-opacity-50">
+            <h1 className="text-5xl md:text-7xl font-gruppo text-white font-bold">Transport</h1>
           </div>
         </div>
     </main>

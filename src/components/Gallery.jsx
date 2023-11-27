@@ -8,7 +8,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const Gallery = () => {
   return (
-    <main className="bg-blue-100 text-center my-20">
+    <main className="text-center my-20">
         <div className="text-5xl font-bold text-black py-20 font-gruppo">
             <h1 >Gallerie</h1>
             <AiOutlineLine className="w-full text-2xl text-green-700 text-center"/>
