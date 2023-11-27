@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineAlignRight } from "react-icons/ai";
 import { BsArrowRight, BsArrowBarDown } from "react-icons/bs";
 
+
 const Navbar = () => {
   return (
     <main className='bg-home bg-cover'>
@@ -53,6 +54,8 @@ const Navbar = () => {
               </div>
             
             </li>
+
+          
         </ul>
       </div> 
     </main>
