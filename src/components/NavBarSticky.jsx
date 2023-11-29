@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { AiOutlineAlignRight } from "react-icons/ai";
 
-const NavBarStick = () => {
+const NavBarSticky = () => {
   return (
-    <main className="">
+    <main className="sticky top-0">
         <div className='lg:flex lg:justify-between items-center py-5 px-10 bg-blue-700 text-white'>
           <div className='text-3xl font-bold '><Link to='/'><span className=' font-gruppo'>KD</span>-<span className=' font-century'>HORIZON</span></Link></div>
           <ul className='flex md:mt-10 lg:mt-0 justify-center md:space-x-8 items-center text-white font-bold text-lg'>
@@ -24,13 +24,8 @@ const NavBarStick = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-about text-center bg-center text-black">
-          <div className=" bg-gray-700 px-20 py-40 md:p-40 lg:p-48 mb-auto bg-opacity-50">
-            <h1 className="text-5xl md:text-7xl font-gruppo text-white font-bold">Qui somme nous</h1>
-          </div>
-        </div>
     </main>
   )
 }
 
-export default NavBarStick
+export default NavBarSticky

@@ -1,5 +1,5 @@
-
-import NavBarAnimal from "../components/NavBarAnimal"
+import AnimalBanner from "../components/AnimalBanner"
+import NavBarSticky from "../components/NavBarSticky"
 import ServiceAnimale from "../components/ServiceAnimale"
 
 
@@ -7,7 +7,8 @@ import ServiceAnimale from "../components/ServiceAnimale"
 const Animale = () => {
   return (
     <main className="">
-        <NavBarAnimal />
+        <NavBarSticky/>
+        <AnimalBanner/>
         <ServiceAnimale />
     </main>
   )

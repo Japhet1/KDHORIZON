@@ -1,13 +1,14 @@
-
 import About from "../components/About"
-import NavBarStick from "../components/NavBarStick"
+import AboutBanner from "../components/AboutBanner"
+import NavBarSticky from "../components/NavBarSticky"
 
 
 
 const AboutPage = () => {
   return (
     <main>
-        <NavBarStick />
+        <NavBarSticky/>
+        <AboutBanner/>
         <About/>
     </main>
   )

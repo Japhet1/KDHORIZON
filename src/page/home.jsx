@@ -7,7 +7,7 @@ import Service from "../components/Services"
 
 const Home = () => {
   return (
-    <main>
+    <main className="bg-blue-50">
         <Navbar />
         <Service/>
         <Projects/>

@@ -11,11 +11,11 @@ const AgricService = () => {
             </p>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center lg:gap-10  md:text-left lg:text-left">
+        <div className="flex flex-wrap justify-center items-center lg:gap-10  md:text-center">
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                     et des vergers abondants.
@@ -24,7 +24,7 @@ const AgricService = () => {
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                 et des vergers abondants.
@@ -33,7 +33,7 @@ const AgricService = () => {
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                     et des vergers abondants.
@@ -42,7 +42,7 @@ const AgricService = () => {
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                     et des vergers abondants.
@@ -51,7 +51,7 @@ const AgricService = () => {
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                     et des vergers abondants.
@@ -60,7 +60,7 @@ const AgricService = () => {
             <div className="md:max-w-xs lg:max-w-md p-6">
                 <div className=" my-5">
                     <h1 className="text-black text-3xl font-bold font-gruppo">Service</h1>
-                    <AiOutlineLine className="w-full md:w-auto lg:w-auto text-3xl text-green-700 text-center"/>
+                    <AiOutlineLine className="w-full text-3xl text-green-700 text-center"/>
                 </div>
                 <p className="leading-8 text-lg font-leelawadee text-gray-700">Nichée au cœur dune campagne fertile, notre ferme possède des champs étendus
                     et des vergers abondants.
