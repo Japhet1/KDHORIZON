@@ -25,7 +25,9 @@ const Gallery = () => {
         slidesPerView={'2'}
         centeredSlides={true}
         spaceBetween={10}
-        navigation
+        navigation={{
+          clickable: true
+        }}
         pagination={{
           clickable: true,
         }}
