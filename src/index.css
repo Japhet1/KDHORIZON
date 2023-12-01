@@ -1,6 +1,4 @@
-/** @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-@import url('https://fonts.cdnfonts.com/css/leelawadee');
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&display=swap');@tailwind base;
 @tailwind components;
@@ -8,6 +6,15 @@
 
 body {
   @apply text-center bg-white;
+}
+.service { 
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  
+}
+@keyframes service {
+  from {left: 0px;}
+  to {left: 300px;}
 }
 
 .dark {

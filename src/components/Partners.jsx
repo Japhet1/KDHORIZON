@@ -4,7 +4,7 @@ import { AiOutlineLine } from "react-icons/ai";
 const Partners = () => {
   return (
     <main className="text-center p-5 mt-10 text-black">
-      <div className="text-5xl font-bold mb-10 font-gruppo">
+      <div className="text-4xl md:text-5xl font-bold mb-10 font-kanit">
         <h1>Partenaires</h1>
         <AiOutlineLine className="w-full text-2xl text-green-700 text-center"/>
       </div>

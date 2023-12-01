@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Pagination, } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 
 
 
@@ -14,7 +14,7 @@ import { AiOutlineLine } from "react-icons/ai";
 const Gallery = () => {
   return (
     <main className="text-center my-20">
-        <div className="text-5xl font-bold text-black py-20 font-gruppo">
+        <div className="text-4xl md:text-5xl font-bold text-black py-20 font-kanit">
             <h1>Gallerie</h1>
             <AiOutlineLine className="w-full text-2xl text-green-700 text-center"/>
         </div>

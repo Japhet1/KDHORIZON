@@ -6,7 +6,7 @@ const AnimalGallery = () => {
   return (
     <div className="py-20">
         <div className="text-center text-3xl mb-10 items-center text-black">
-            <h1 className="font-gruppo font-bold text-5xl">Gallerie</h1>
+            <h1 className="font-kanit font-bold text-4xl md:text-5xl">Gallerie</h1>
             <AiOutlineLine className="w-full text-2xl text-green-700 text-center"/>      
         </div>
         <div className="flex flex-wrap justify-center gap-10">
