@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 
 
@@ -21,14 +21,15 @@ const Gallery = () => {
 
         <Swiper
         // install Swiper modules
-        
+        modules={[Navigation, Pagination]}
         slidesPerView={'2'}
         centeredSlides={true}
         spaceBetween={10}
+        navigation
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        
         className="mySwiper mx-10 md:mx-20 lg:mx-40"
         >
             <SwiperSlide><img src="/15.jpg" alt="" width={800} height={400} /></SwiperSlide>
